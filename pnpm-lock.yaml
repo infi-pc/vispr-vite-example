@@ -2,11 +2,11 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@vispr/runtime':
-    specifier: ^0.0.12
-    version: 0.0.12(@babel/core@7.21.8)(rollup@3.21.4)
+    specifier: ^0.0.14
+    version: 0.0.14(@babel/core@7.21.8)(rollup@3.21.4)
   '@vispr/runtime-react-loader':
-    specifier: ^0.0.12
-    version: 0.0.12
+    specifier: ^0.0.14
+    version: 0.0.14
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -14,8 +14,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   vispr-analyze:
-    specifier: ^0.0.12
-    version: 0.0.12(@babel/core@7.21.8)
+    specifier: ^0.0.14
+    version: 0.0.14(@babel/core@7.21.8)
 
 devDependencies:
   '@types/react':
@@ -31,8 +31,8 @@ devDependencies:
     specifier: ^5.57.1
     version: 5.57.1(eslint@8.38.0)(typescript@5.0.2)
   '@vispr/babel-plugin-jsx':
-    specifier: ^0.0.12
-    version: 0.0.12(@babel/core@7.21.8)(rollup@3.21.4)
+    specifier: ^0.0.14
+    version: 0.0.14(@babel/core@7.21.8)(rollup@3.21.4)
   '@vitejs/plugin-react':
     specifier: ^4.0.0
     version: 4.0.0(vite@4.3.2)
@@ -2032,8 +2032,8 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: true
 
-  /@vispr/babel-for-browser@0.0.12(@babel/core@7.21.8):
-    resolution: {integrity: sha512-NxpNYP5D4UpbVaSCOf0ixVMm/xAsXZIR5yUOEic+bcm2pfUmJfa7FyRWyalUu6KEQtecVP10oNiqRxxYnCC4bg==}
+  /@vispr/babel-for-browser@0.0.14(@babel/core@7.21.8):
+    resolution: {integrity: sha512-fg7MiIeUElsxEoI6TGETM1g6RXYpyNhj+ywfuYwiixSU5pQAjlLaU984v7iOlCNqvP7QDr+TqLLF7K6fmltpPQ==}
     dependencies:
       '@babel/generator': 7.21.5
       '@babel/parser': 7.21.8
@@ -2048,8 +2048,8 @@ packages:
       - '@babel/core'
       - supports-color
 
-  /@vispr/babel-plugin-jsx@0.0.12(@babel/core@7.21.8)(rollup@3.21.4):
-    resolution: {integrity: sha512-EHhFvnVug4KCHLk6YDOZnXgcFrl5NXIeoF9jQZTy4/fFrRVO4GDbBu+D5ucFpBIkVQAURVgaQ29ssSDabsL3yg==}
+  /@vispr/babel-plugin-jsx@0.0.14(@babel/core@7.21.8)(rollup@3.21.4):
+    resolution: {integrity: sha512-uxr6isJ/SBQxaphc2YAZYGeqQXeis9gkbzjiN9RIqZbhKxxOUHXgG9VqnWHgP93GQhrqT1CN4SSLDqKJmSMMXQ==}
     dependencies:
       '@babel/plugin-syntax-jsx': 7.21.4(@babel/core@7.21.8)
       '@babel/preset-env': 7.21.5(@babel/core@7.21.8)
@@ -2059,10 +2059,10 @@ packages:
       '@babel/traverse': 7.21.5
       '@babel/types': 7.21.5
       '@types/express': 4.17.17
-      '@vispr/local-server': 0.0.12(@babel/core@7.21.8)(rollup@3.21.4)
-      '@vispr/runtime': 0.0.12(@babel/core@7.21.8)(rollup@3.21.4)
-      '@vispr/shared': 0.0.12(@babel/core@7.21.8)
-      '@vispr/shared-be': 0.0.12(@babel/core@7.21.8)
+      '@vispr/local-server': 0.0.14(@babel/core@7.21.8)(rollup@3.21.4)
+      '@vispr/runtime': 0.0.14(@babel/core@7.21.8)(rollup@3.21.4)
+      '@vispr/shared': 0.0.14(@babel/core@7.21.8)
+      '@vispr/shared-be': 0.0.14(@babel/core@7.21.8)
       fs-extra: 11.1.1
       js-md5: 0.7.3
     transitivePeerDependencies:
@@ -2073,12 +2073,12 @@ packages:
       - ts-node
     dev: true
 
-  /@vispr/local-server@0.0.12(@babel/core@7.21.8)(rollup@3.21.4):
-    resolution: {integrity: sha512-WRuFacx2ClsiPhwoSWZ/s6tSmWogmafvG8BFU6hYXAc7eN88CGulEm9k+MIpXvHz+NSZtEBc8YfL4tr/rAA+PQ==}
+  /@vispr/local-server@0.0.14(@babel/core@7.21.8)(rollup@3.21.4):
+    resolution: {integrity: sha512-c/WbAVmTCMsEzJmWNhIdVy7Z+jiHWKBpIu+dZ3mQj13Doq+jAralcs7NpXnPCMSW8lJIZC5XOGveBNeL9QjYxg==}
     dependencies:
-      '@vispr/runtime': 0.0.12(@babel/core@7.21.8)(rollup@3.21.4)
-      '@vispr/shared': 0.0.12(@babel/core@7.21.8)
-      '@vispr/shared-be': 0.0.12(@babel/core@7.21.8)
+      '@vispr/runtime': 0.0.14(@babel/core@7.21.8)(rollup@3.21.4)
+      '@vispr/shared': 0.0.14(@babel/core@7.21.8)
+      '@vispr/shared-be': 0.0.14(@babel/core@7.21.8)
       cross-fetch: 3.1.5
       express: 4.18.2
       fs-extra: 11.1.1
@@ -2095,11 +2095,11 @@ packages:
       - ts-node
     dev: true
 
-  /@vispr/runtime-react-loader@0.0.12:
-    resolution: {integrity: sha512-GVSvYgWxen2Hm4JbtOpvRB26VRpvYFyy1D6FR0J2GmMrk3CDgThkqLGJ+UlbREC4y9e5q0OdUKKajrHmfA5eYA==}
+  /@vispr/runtime-react-loader@0.0.14:
+    resolution: {integrity: sha512-/yGnKgdrQliP3TM1brIx2CVQQaS/wfz4/LZ3pvG5IRUps3amlMhbIwM+NNskFouKMuWS7Q4fVIITsFtssS3QrA==}
 
-  /@vispr/runtime@0.0.12(@babel/core@7.21.8)(rollup@3.21.4):
-    resolution: {integrity: sha512-d8fxbkFXCY+N6hT4uxWwnoFqIm4xZ83AmWuNh48eRbBTqlxjPgmQ6QaOeSzebREYhodia5RD0kXLQAL5KxdWPA==}
+  /@vispr/runtime@0.0.14(@babel/core@7.21.8)(rollup@3.21.4):
+    resolution: {integrity: sha512-/Dc1kkNgeqXEzrk5zTPCwqh8w9Ai16iB2iMryQOF8PECF9Y3BIACFdn7qWCE+oOoWAwIobR/HvW3oYQsNTfOUA==}
     dependencies:
       '@floating-ui/dom': 1.2.7
       '@rollup/plugin-node-resolve': 15.0.2(rollup@3.21.4)
@@ -2108,10 +2108,10 @@ packages:
       '@solid-primitives/storage': 1.3.9(solid-js@1.7.4)
       '@tailwindcss/forms': 0.5.3(tailwindcss@3.3.2)
       '@thisbeyond/solid-select': 0.13.0(solid-js@1.7.4)
-      '@vispr/babel-for-browser': 0.0.12(@babel/core@7.21.8)
-      '@vispr/runtime-react-loader': 0.0.12
-      '@vispr/shared': 0.0.12(@babel/core@7.21.8)
-      '@vispr/ts-worker': 0.0.12(@babel/core@7.21.8)
+      '@vispr/babel-for-browser': 0.0.14(@babel/core@7.21.8)
+      '@vispr/runtime-react-loader': 0.0.14
+      '@vispr/shared': 0.0.14(@babel/core@7.21.8)
+      '@vispr/ts-worker': 0.0.14(@babel/core@7.21.8)
       comlink: 4.4.1
       cuid: 2.1.8
       rollup-plugin-polyfill-node: 0.11.0(rollup@3.21.4)
@@ -2126,15 +2126,16 @@ packages:
       - supports-color
       - ts-node
 
-  /@vispr/shared-be@0.0.12(@babel/core@7.21.8):
-    resolution: {integrity: sha512-vGpDVjFWJo/c5wgSKS481T0w15a/ikHSQcN1MMHHa9wtP3Ucr3Kz5RtqeMKWLTMIbG6Db8uXds5nly9+0PBT8Q==}
+  /@vispr/shared-be@0.0.14(@babel/core@7.21.8):
+    resolution: {integrity: sha512-pvetSeJHVvq2YGpLdrjSI1S38de1R2DJltxXkQ5h3W12kJohnHV/YKc084j8PSPqOkyGj1zQ28AZy483V9mYtw==}
     dependencies:
       '@babel/generator': 7.21.5
       '@babel/parser': 7.21.8
       '@babel/traverse': 7.21.5
       '@babel/types': 7.21.5
       '@types/fs-extra': 9.0.13
-      '@vispr/shared': 0.0.12(@babel/core@7.21.8)
+      '@vispr/shared': 0.0.14(@babel/core@7.21.8)
+      esm: 3.2.25
       fs-extra: 11.1.1
       postcss: 8.4.23
       prettier: 2.8.8
@@ -2146,14 +2147,14 @@ packages:
       - supports-color
       - ts-node
 
-  /@vispr/shared@0.0.12(@babel/core@7.21.8):
-    resolution: {integrity: sha512-ZwKKIll4P53k9Bvq+/gLy2LrgQDoldyN8KWPF/jLjBf2IMQnRSOBtATYghQhHHqqv7xmDerYWnhedQpLjBibZw==}
+  /@vispr/shared@0.0.14(@babel/core@7.21.8):
+    resolution: {integrity: sha512-D7odALCj6s3dG26lblDq733+EXABLdF/A5px3GZV9O4X3j2cfUGTvMvk0LI039cnMKQc3L3cnLTdKTvo/KccSw==}
     dependencies:
       '@babel/generator': 7.21.5
       '@babel/parser': 7.21.8
       '@babel/traverse': 7.21.5
       '@babel/types': 7.21.5
-      '@vispr/babel-for-browser': 0.0.12(@babel/core@7.21.8)
+      '@vispr/babel-for-browser': 0.0.14(@babel/core@7.21.8)
       js-md5: 0.7.3
       jsonpath: 1.1.1
       memfs: 3.5.1
@@ -2166,14 +2167,14 @@ packages:
       - '@babel/core'
       - supports-color
 
-  /@vispr/ts-worker@0.0.12(@babel/core@7.21.8):
-    resolution: {integrity: sha512-+lYp6dUh+H8IxlN16fW7zwPoo5YOuH1UiwrXIwU9MgLrlKW//pE1uSGv59DXct/hy07pAeqD6TtkoSEFjvk+dQ==}
+  /@vispr/ts-worker@0.0.14(@babel/core@7.21.8):
+    resolution: {integrity: sha512-5zlWwXDCygptLegkNpU/Nf4VV3bARyjUsq1xy2HU3Aa7yPIxsq7uffCPXO56Upa0ixp4lOcz+5dYOX0Et96i6Q==}
     dependencies:
       '@babel/generator': 7.21.5
       '@babel/parser': 7.21.8
       '@babel/traverse': 7.21.5
       '@babel/types': 7.21.5
-      '@vispr/shared': 0.0.12(@babel/core@7.21.8)
+      '@vispr/shared': 0.0.14(@babel/core@7.21.8)
       comlink: 4.4.1
       js-untar: 2.0.0
       memfs: 3.5.1
@@ -2895,6 +2896,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /esm@3.2.25:
+    resolution: {integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==}
+    engines: {node: '>=6'}
 
   /espree@9.5.1:
     resolution: {integrity: sha512-5yxtHSZXRSW5pvv3hAlXM5+/Oswi1AUFqBmbibKb5s6bp3rGIDkyXU6xCoyuuLhijr4SFwPrXRoZjz0AZDN9tg==}
@@ -4543,8 +4548,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vispr-analyze@0.0.12(@babel/core@7.21.8):
-    resolution: {integrity: sha512-46T/55rGbyd0y3+cuhXH4nGn24Z2BCdzGoghXOrnM7F9EAKsTugQF5hUW8lH0277QU6GrkhGs26+LcAa68u/2g==}
+  /vispr-analyze@0.0.14(@babel/core@7.21.8):
+    resolution: {integrity: sha512-mS6fo9BmxDmazlcwOHA5luOMjucaF4ZUfgFTXJA69ZBcWYBWk0GE4N7b50fWCDNkz6IZUm8tUwEEBGW4cJYr0Q==}
     hasBin: true
     dependencies:
       '@babel/generator': 7.21.5
@@ -4553,9 +4558,9 @@ packages:
       '@babel/types': 7.21.5
       '@types/archiver': 5.3.2
       '@types/fs-extra': 9.0.13
-      '@vispr/babel-for-browser': 0.0.12(@babel/core@7.21.8)
-      '@vispr/shared': 0.0.12(@babel/core@7.21.8)
-      '@vispr/shared-be': 0.0.12(@babel/core@7.21.8)
+      '@vispr/babel-for-browser': 0.0.14(@babel/core@7.21.8)
+      '@vispr/shared': 0.0.14(@babel/core@7.21.8)
+      '@vispr/shared-be': 0.0.14(@babel/core@7.21.8)
       archiver: 5.3.1
       dotenv: 16.0.3
       fs-extra: 11.1.1
